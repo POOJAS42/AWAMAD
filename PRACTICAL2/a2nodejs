@@ -1,0 +1,18 @@
+80+66-2
+15%3
+66-67
+35/4
+70*43
+Math.ceil(12/2)
+Math.floor(12/2)
+Math.round(Math.e,3)
+Math.round(2.4678,3)
+Math.sqrt(25)
+Math.pow(2,4)
+var a=6
+a
+var c="NODEJS REPL"
+c
+for(var i=1;i<=8;i++){
+console.log('GETTING STARTED WITH NODEJS');
+}

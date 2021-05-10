@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid vaccine Registration Form</title>
+    <style>
+        #covid-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        label{
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <form id="covid-form" action="http://localhost:3000/register_covid_vaccine" method="GET">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="Name"> 
+        <label for="city">City</label>
+        <input id="city" type="text" name="City">
+        <label for="AadharNo">AdharNo</label>
+        <input id="AadharNo" type="text" name="AadharNo">
+        <label for="MobileNO">MobileNO</label>
+        <input id="MobileNO" type="text" name="MobileNO">
+        <input type="submit" value="Submit">  
+    </form> 
+</body>
+</html>
